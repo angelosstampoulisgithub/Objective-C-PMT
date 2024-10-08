@@ -731,14 +731,6 @@
                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             </textFieldCell>
                                         </textField>
-                                        <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="oXu-w2-Q2b">
-                                            <rect key="frame" x="29" y="364" width="34" height="16"/>
-                                            <textFieldCell key="cell" lineBreakMode="clipping" title="NPer" id="f5J-vT-C3O">
-                                                <font key="font" metaFont="system"/>
-                                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                            </textFieldCell>
-                                        </textField>
                                         <textField focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="gnK-2M-4wT">
                                             <rect key="frame" x="20" y="335" width="438" height="21"/>
                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" id="wPs-Se-ieA">
@@ -815,6 +807,14 @@
                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             </textFieldCell>
                                         </textField>
+                                        <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="oXu-w2-Q2b">
+                                            <rect key="frame" x="16" y="364" width="34" height="16"/>
+                                            <textFieldCell key="cell" lineBreakMode="clipping" title="NPer" id="f5J-vT-C3O">
+                                                <font key="font" metaFont="system"/>
+                                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            </textFieldCell>
+                                        </textField>
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="RFp-6d-qLM" firstAttribute="top" secondItem="N1V-0P-LIA" secondAttribute="bottom" constant="8" symbolic="YES" id="2Ci-Wr-SDB"/>
@@ -829,9 +829,9 @@
                                         <constraint firstItem="sUj-Iq-xwM" firstAttribute="leading" secondItem="yBc-8R-MRG" secondAttribute="leading" constant="18" id="PXa-P2-6kV"/>
                                         <constraint firstAttribute="trailing" secondItem="YXG-KY-nuq" secondAttribute="trailing" constant="431" id="TMs-uw-BbX"/>
                                         <constraint firstItem="n8v-lV-dZg" firstAttribute="top" secondItem="YXG-KY-nuq" secondAttribute="bottom" constant="8" symbolic="YES" id="TqJ-YT-9L0"/>
-                                        <constraint firstItem="oXu-w2-Q2b" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="yBc-8R-MRG" secondAttribute="leading" symbolic="YES" id="Tud-UI-fBc"/>
+                                        <constraint firstItem="oXu-w2-Q2b" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="yBc-8R-MRG" secondAttribute="leading" constant="18" id="Tud-UI-fBc"/>
                                         <constraint firstAttribute="trailing" secondItem="3ZV-FI-Q0X" secondAttribute="trailing" constant="20" symbolic="YES" id="UUr-oy-bTf"/>
-                                        <constraint firstAttribute="trailing" secondItem="oXu-w2-Q2b" secondAttribute="trailing" constant="417" id="VVb-tn-dr8"/>
+                                        <constraint firstAttribute="trailing" secondItem="oXu-w2-Q2b" secondAttribute="trailing" constant="430" id="VVb-tn-dr8"/>
                                         <constraint firstItem="n8v-lV-dZg" firstAttribute="leading" secondItem="RFp-6d-qLM" secondAttribute="leading" id="XPV-1U-ahf"/>
                                         <constraint firstItem="Ixn-g9-KA2" firstAttribute="top" secondItem="RFp-6d-qLM" secondAttribute="bottom" constant="49" id="XRg-g0-HYw"/>
                                         <constraint firstItem="YXG-KY-nuq" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="n8v-lV-dZg" secondAttribute="leading" id="adU-PG-FDl"/>
